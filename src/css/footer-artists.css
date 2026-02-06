@@ -33,6 +33,16 @@
   fill: #764191;
   width: 84px;
   height: 36px;
+
+  transition:
+    fill 250ms ease-in-out,
+    transform 500ms ease-in-out;
+}
+
+.logo-icon:hover,
+.logo-icon:focus {
+  fill: #fff;
+  transform: scale(1.1);
 }
 
 .footer-nav-list {
